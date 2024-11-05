@@ -8,7 +8,7 @@ import warnings
 
 warnings.filterwarnings("ignore", category=UserWarning, module='urllib3')
 SERPER_API_KEY = "f134d52118858e8204d03407b0af2f679c2c966f770469f735c1b76cfd35cdab"  # Replace with your actual API key
-OPENAI_API_KEY = "sk-svcacct-27_9mjBMHdbhtesADGmJazfwzaQPQnLdWIUCwLP1lSgKWYbp09kT3BlbkFJPiC-VVukQsPZPqTzUB4jm1iGmKq92oblVYo8WYIdnJmu6_wQN2QA"  # Replace with your actual API key
+OPENAI_API_KEY = ""  # Replace with your actual API key
 
 openai.api_key = OPENAI_API_KEY
 
